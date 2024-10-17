@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+    background-color: black;
+  }
+  
+
+  .header {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 156;
+    
+  }
+  .logo img {
+    height: 66px;
+      width:250px;
+     float: left;
+     cursor: pointer;
+     
+  }
+
+  nav li{
+    display: inline-block;
+    list-style: none;
+    padding-top: 15px;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding-bottom: 20px;
+    }
+  
+  nav ul li a {
+    color: white;
+    text-transform: capitalize;
+    padding: 0px 30px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35px;
+  }
+
+  nav li a:hover{
+    color: red;
+    transition: all 0.4s ease 0s;
+    
+  }
+  
+  .hero {
+    background-image: url('hero.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: auto;
+    color: white;
+  }
+  
+  .cars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    padding: 20px;
+    text-align: center;
+    
+  }
+
+  .button {
+    color: white;
+    background-color: red;
+    padding: 10px 45px;
+    margin-left: 30px;
+    border: 0px;
+    border-radius: 8px 8px 8px 8px;
+   
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .since {
+    font-size: 26px;
+    color: #fff;
+    display: inline-block;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    margin-top: 50px;
+  }
+
+  .title{
+    display: block;
+    font-weight: 500;
+    line-height:1.1;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    font-size: 36px;
+    font-family: "Gotham-Light";
+  }
+  .containers{
+    width: 100%;
+    height: 100%;
+    background: none;
+    display: flex;
+    
+    justify-content: center;
+    
+    
+}
+
+.swiper{
+    width: 100%;
+    height: fit-content;
+}
+.swiper-slide img{
+    width: 100%;
+}
+
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: #fff
+}
+
+.flex{
+  display: flex;
+  height: 70px;
+  width: auto;
+  
+  max-width: 80vw;
+  margin-right: 50px;
+  
+  padding: 0px 12px;
+    justify-content: space-evenly;
+  padding-right: 50spx; 
+}
+.searchi{
+  font-size: 25px; 
+  float: right;
+  
+  margin-left: 50px;
+  padding-top: 17px;
+}
+
+
+.green {
+
+  padding: 19px 83px;
+  font-size: 29px;
+  margin-right: 50px;
+  background: #303438 url(../images/select_dropdown_aerrow.png) no-repeat scroll 90% 50%;
+  color: white;
+  border-radius: 8px 8px 8px 8px;
+  border: none;
+  font-family: "GothamBook" ;
+ justify-content: center;
+}
+
+.searchButton {
+  color: white;
+  background-color: red;
+  position: relative;
+padding: 19px 83px;
+  margin-left: 30px;
+  border: 0px;
+  border-radius: 8px 8px 8px 8px;
+  left: 179px;
+ 
+}
+.newArrivals{  
+    text-align: center;
+    padding-top: 37px;
+    font-size: 42px;
+    font-family: "Gothambook";
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 18%;
+    padding-top: 16px;
+    margin-left: 18%;
+    margin-top: 5px;
+}
+.purple{
+  /* align-items: center;
+  justify-content: center; */
+  color: white;
+  background-color: red;
+  /* padding: 10px 45px; */
+/* padding: 19px 83px; */
+  /* margin-left: 30px; */
+  border: 0px;
+  border-radius: 8px 8px 8px 8px;
+}
